@@ -79,3 +79,50 @@ hr {
     width: 25%;
     float: right;
 }
+
+.btn {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  .btn:active {
+    background-color: black;
+  }
+  
+  .btn:visited {
+    background-color: #ccc;
+  }
+
+.bottom-link {
+    display: inline-block;
+    margin: 1rem;
+
+}
+
+.li-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-wrapper i {
+    margin-right: 1rem;
+}
+
+.li-wrapper a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.copyright {
+    margin: 5rem;
+}
